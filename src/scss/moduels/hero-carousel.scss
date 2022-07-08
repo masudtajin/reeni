@@ -1,0 +1,55 @@
+.item {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .overly {
+        position: absolute;
+        .btn{
+            padding: 25px 65px; 
+        }
+        p{
+            color: var(--color-10) !important;
+            font-size:  24px;
+            line-height: 33px;
+            font-family: var(--font-2);
+            font-weight: 400;
+            margin-bottom: 65px;
+            @include media(md){
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+       
+    }
+   
+}
+.hero-carousel{
+   
+}
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    button:hover{
+        background: transparent !important;
+    }
+
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: -13px;
+    background-color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 5px;
+    span{
+        margin:7px !important;
+    }
+}
